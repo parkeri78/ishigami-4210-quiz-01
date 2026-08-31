@@ -90,6 +90,16 @@ main {
   font-size: 2.5rem;
 }
 
+.photo {
+  display: block;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 1.25rem;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  object-fit: cover;
+}
+
 .linkedin {
   display: inline-block;
   margin-top: 0.75rem;
